@@ -9,9 +9,9 @@ class PostsController extends AppController {
         echo "Posts Index";
     }
 
-    public function view()
+    public function view($id = null)
     {
-        echo "Posts View";
+        echo "ID;" . $id . "Posts View";
     }
 
 }
